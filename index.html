@@ -1,59 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Mario</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<style>
-		.row, .column {
-			padding: 0px;
-			margin: 0px;
-			height: 45px;
-		}
-		.red {
-			background-color: red;
-		}
-		.blue {
-			background-color: blue;
-		}
-		.beige {
-			background-color: beige;
-		}
-		.black {
-			background-color: black;
-		}
-		.yellow {
-			background-color: yellow;
-		}
-		.brown {
-			background-color: brown;
-		}
-		.none {
-			background-color: transparent;
-		}
-		@media (min-width: 576px) {
-			.row, .column {
-				height: 45px;
-			}
-		}
-		@media (min-width: 768px) {
-			.row, .column {
-				height: 60px;
-			}
-		}
-		@media (min-width: 992px) {
-			.row, .column {
-				height: 80px;
-			}
-		}
-		@media (min-width: 1200px) {
-			.row, .column {
-				height: 95px;
-			}
-		}
-	</style>
-</head>
-<body>
-	<!-- USE BOOTSTRAP'S CONTAINER, ROW, AND COLUMN CLASSES TO DRAW YOUR PIXEL ART! -->
 
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="row">
+        <div class="alert alert-sucesss" role="alert">
+         I can put any message here!
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-3" style="background-color: cadetblue;">
+            Content
+        </div>
+        <div class="col-12 col-md-3" style="background-color: rgb(56, 64, 65);">
+            Content
+        </div>
+        <div class="col-12 col-md-3" style="background-color: cadetblue;">
+            Content
+        </div>
+        <div class="col-12 col-md-3" style="background-color: rgb(56, 64, 65);">
+            Content
+        </div>
+    </div>
 </body>
+
 </html>
